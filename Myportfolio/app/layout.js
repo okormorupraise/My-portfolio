@@ -2,6 +2,7 @@
 import './globals.css'
 import Header from './header'
 import Footer from './footer'
+export const revalidate = 10
 
 export default function RootLayout({ children }) {
   return (

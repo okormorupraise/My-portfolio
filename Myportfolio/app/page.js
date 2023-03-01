@@ -30,7 +30,7 @@ async function getSerbverSideProps2() {
       }
     }
     `,
-  },{next:{revalidate : 10}, cache:"no-store"});
+  });
 
   return {
     props: {
@@ -61,7 +61,7 @@ async function getSerbverSideProps() {
         }
       }
     `,
-  } ,{next:{revalidate : 10}, cache:"no-store"});
+  } );
 
   return {
     props: {

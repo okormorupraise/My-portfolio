@@ -42,7 +42,7 @@ function Blog(props) {
                 
             </div>
            <div className='w-full grid gap-[52px]'>
-           {small.reverse().slice(1, 4)}
+           {small.reverse().slice(1, 3)}
             
            </div>
         </div>
