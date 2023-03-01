@@ -7,9 +7,10 @@ import Landingpage from './Landingpage'
 import Smallblogcards from './smallblogcards'
 import { gql, ApolloClient, InMemoryCache} from '@apollo/client'
 import Bottomnavbar from '../bottomnavbar'
+export const revalidate = 60;
 const client = new ApolloClient({
-  uri: "https://api-eu-west-2.hygraph.com/v2/cleanbmhq290501tb12yb9x0m/master",
-  cache:new InMemoryCache()
+    uri: "https://api-eu-west-2.hygraph.com/v2/cleanbmhq290501tb12yb9x0m/master",
+    cache:new InMemoryCache()
 });
 async function getSerbverSideProps() {
   const { data } = await client.query({
@@ -28,7 +29,7 @@ async function getSerbverSideProps() {
         }
       }
     `,
-  },{next:{revalidate : 10}, cache:"no-store"});
+  });
 
   return {
     props: {
@@ -37,7 +38,6 @@ async function getSerbverSideProps() {
 
      
     },
-     revalidate:10
   };
 }
 const  Page = async  () => {

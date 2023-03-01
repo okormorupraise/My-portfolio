@@ -5,7 +5,7 @@ import Landingpage from './landingpage'
 import Containerforwesite from './containerforwesite'
 import { gql, ApolloClient, InMemoryCache} from '@apollo/client'
 import { Suspense } from 'react'
-
+export const revalidate = 60;
 const client2 = new ApolloClient({
   uri: "https://api-eu-west-2.hygraph.com/v2/cledhq7g34qeb01uf508p9ec8/master",
   cache: new InMemoryCache(),
@@ -35,7 +35,6 @@ async function getSerbverSideProps2() {
   return {
     props: {
       data,
-      revalidate : 60
     },
   };
 }
@@ -66,8 +65,7 @@ async function getSerbverSideProps() {
 
   return {
     props: {
-      data,
-      revalidate : 60
+      data
     },
   };
 }
