@@ -1,14 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 import { FaArrowLeft } from 'react-icons/fa'
-import {BsArrowLeft} from "react-icons/Bs"
+
 const Reading = (props) => {
   return (
     <div className='flex justify-center w-full mt-[39px]'>
       <div className='max-w-[570px] px-[20px] w-full'>
         <Link href="/Blog" className='flex items-end'>
             <div className='flex h-fit items-end '>
-                <BsArrowLeft size={20} strokeWidth={1} className='flex text-[#391400] font-[800] items-end'/>
+                <FaArrowLeft size={20} strokeWidth={1} className='flex text-[#391400] font-[800] items-end'/>
             </div>
             <div className='text-[#391400]  text-[14px] leading-none  uppercase pl-[14px] font-[700] font-Epilogue'>
                 Back To Blog

@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer'
 import {motion, useAnimation} from "framer-motion"
 import { useRef } from 'react'
 import { useEffect } from 'react'
-import { BsCaretDown } from 'react-icons/Bs'
+
 function Latestwork(props) {
     const animation = useAnimation()
     const animation2 = useAnimation()
