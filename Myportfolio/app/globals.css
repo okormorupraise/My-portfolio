@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{   
+  background: #FDF0E9;
+   }
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+#tr{
+
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
+}
+#g{
+  display: flex;
+}
+#gid{
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+@media screen and (max-width:280px){
+
+  #g{
+    display: grid;
+
+ 
+  }
+  #text{
+    padding-left:0px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 300px){
+  #Email{
+    word-break: break-all;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+}
