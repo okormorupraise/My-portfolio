@@ -66,7 +66,6 @@ async function getSerbverSideProps() {
   return {
     props: {
       data,
-      revalidate : 10
     },
   };
 }
