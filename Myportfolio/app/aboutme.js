@@ -12,8 +12,8 @@ function Aboutme() {
     cancel, error, isInProgress } =
 useDownloader();
 
-const cvv = "/Okormorupraiseresume.pdf"
-const filename = "/Okormorupraiseresume.pdf";
+const cvv = "/Okormorupraiseresume (3).pdf"
+const filename = "/Okormorupraiseresume (3).pdf";
   const animation = useAnimation()
   const animation2 = useAnimation()
   const animation3 = useAnimation()

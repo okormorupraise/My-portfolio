@@ -9,7 +9,7 @@ function Bottomnavbar(props) {
     cancel, error, isInProgress } =
 useDownloader();
 
-const cvv = "/Okormorupraiseresume.pdf"
+const cvv = "/Okormorupraiseresume (3).pdf"
 const filename = "/Okormorupraiseresume.pdf";
   return (
     <div className={`h-[100vh] 

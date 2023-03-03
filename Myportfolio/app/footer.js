@@ -7,8 +7,8 @@ function Footer() {
     const { size, elapsed, percentage, download,
         cancel, error, isInProgress } =
     useDownloader();
-    const cvv = "/okormorupraiseportfolio.vercel.app.pdf"
-const filename = "/okormorupraiseportfolio.vercel.app.pdf";
+    const cvv = "/Okormorupraiseresume (3).pdf"
+const filename = "/Okormorupraiseresume (3).pdf";
   return (
     <div className=' flex  justify-center bg-[#28293E] pt-20'>
         <div className='max-w-[1128px] px-[20px] w-full'>
