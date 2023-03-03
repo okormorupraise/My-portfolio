@@ -110,11 +110,7 @@ if(inputs.email !== "" && inputs.subject !== "" && inputs.message !== ""){
                     SUBMIT Now
                 </button>
             </div>
-            <ReCAPTCHA
-        ref={recaptchaRef}
-        sitekey = "6LfmKLgkAAAAAMimipSCIKDuA8lUm-idlghVVZ3M"
-       
-      />
+ 
       </form>
             
 <div className={`${state2 === undefined ? "hidden" : "block" } font-Epilogue `}>

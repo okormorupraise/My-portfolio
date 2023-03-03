@@ -1,12 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
-import pic from "..//public/pic2.png"
+import pic from "..//public/pic (1).png"
 import Link from 'next/link'
 import { useInView } from 'react-intersection-observer'
 import {motion, useAnimation} from "framer-motion"
 import { useRef } from 'react'
 import { useEffect } from 'react'
+import useDownloader from 'react-use-downloader'
 function Aboutme() {
+  const { size, elapsed, percentage, download,
+    cancel, error, isInProgress } =
+useDownloader();
+
+const cvv = "/Okormorupraiseresume.pdf"
+const filename = "/Okormorupraiseresume.pdf";
   const animation = useAnimation()
   const animation2 = useAnimation()
   const animation3 = useAnimation()
@@ -103,7 +110,7 @@ function Aboutme() {
             I am a web developer from Delta State Nigeria. I provide frontend services and i have a good understanding of web 3. <Link href="/#Contact" className='text-[#391400]'>Contact Me</Link>
             </div>
             <div className='mt-[34px]'>
-                <button className='font-Epilogue text-[14px] font-black text-[#391400] w-[138px] h-[48px] rounded-[6px] bg-[white] shadow-backshadow'>
+                <button  onClick={() => download(cvv, filename)} className='font-Epilogue text-[14px] font-black text-[#391400] w-[138px] h-[48px] rounded-[6px] bg-[white] shadow-backshadow'>
                     View Resume
                 </button>
             </div>

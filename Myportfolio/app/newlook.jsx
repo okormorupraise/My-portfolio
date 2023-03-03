@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaCheck } from 'react-icons/fa'
-import picgure from "..//public/pic3.png"
+import picgure from "..//public/pic (2).png"
 import star from "..//public/Group 4.png"
 import card from "..//public/Group 3c.png"
 import { useInView } from 'react-intersection-observer'
@@ -85,7 +85,7 @@ function Newlook() {
   
     },[InView, animation, animation2, animation3])
   return (
-    <motion.div initial={{opacity:0, transitionDelay:0}} animate={animation} ref={ref} className='flex justify-center relative bg-[#28293E] mt-[110px] py-[77px] lg:py-[100px] pb-[165px] lg:pb-[77px]' id='Newlook'>
+    <motion.div initial={{opacity:0, transitionDelay:0}} animate={animation} ref={ref} className='flex justify-center relative bg-[#28293E] mt-[110px] py-[77px] lg:py-[100px] pb-[165px] lg:pb-[77px]' id='Collaboration'>
 
  <div className='grid grid-cols-1 md:grid-cols-2 items-center max-w-[1128px] px-[20px] w-full'>
  <div  className='flex md:hidden'>

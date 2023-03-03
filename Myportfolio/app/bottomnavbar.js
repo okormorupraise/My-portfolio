@@ -2,14 +2,22 @@
 import React from 'react'
 import { FaBook, FaHome, FaInfo, FaPhone } from 'react-icons/fa'
 import "./globals.css"
-
+import useDownloader from 'react-use-downloader'
 import Link from 'next/link'//  ${props.state ? "hbidden" : "block"} 
 function Bottomnavbar(props) {
+  const { size, elapsed, percentage, download,
+    cancel, error, isInProgress } =
+useDownloader();
 
+const cvv = "/Okormorupraiseresume.pdf"
+const filename = "/Okormorupraiseresume.pdf";
   return (
     <div className={`h-[100vh] 
     ease-in-out duration-300ms 
  w-full fixed bottom-0 flex ${props.state ? "opacity-0" : "opacity-1"} ${props.state ? "invisible" : "visible"} items-end bg-[rgb(0,0,0,0.8)]`} id="tr">
+        <button  onClick={() => download(cvv, filename)} className='border-[1px]  font-Epilogue rounded-[6px] border-[rgba(255,255,255,0.295743)] w-[138px] h-[48px] font-[900] text-[14px] text-white absolute bottom-[25%] left-[20px] top-[30px]'>
+          View Resume
+        </button>
        <div className={`h-fit w-full z-50 py-[8px]  ${props.state ? "bottom-[-200px]" : "bottom-[0px]"} fixed bg-[#28293E] px-[15px]`} id="gid">
             <ul className={`grid grid-cols-4`}>
               <li className='px-[26px] py-[16px]'>

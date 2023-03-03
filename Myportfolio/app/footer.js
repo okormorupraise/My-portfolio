@@ -1,8 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
-
+import useDownloader from 'react-use-downloader';
 function Footer() {
+    const { size, elapsed, percentage, download,
+        cancel, error, isInProgress } =
+    useDownloader();
+    const cvv = "/okormorupraiseportfolio.vercel.app.pdf"
+const filename = "/okormorupraiseportfolio.vercel.app.pdf";
   return (
     <div className=' flex  justify-center bg-[#28293E] pt-20'>
         <div className='max-w-[1128px] px-[20px] w-full'>
@@ -45,8 +50,8 @@ function Footer() {
                 Other
             </div>
             <li  className='text-white font-Epilogue leading-8 mt-[12px]'>
-                <a href="/#Newlook">
-                    Newlook
+                <a href="/#Collaboration">
+                    Collaboration
                 </a>
             </li>
             <li  className='text-white font-Epilogue leading-8 mt-[12px]'>
@@ -54,15 +59,10 @@ function Footer() {
                     FAQ
                 </a>
             </li>
-            <li  className='text-white font-Epilogue leading-8 mt-[12px]'>
-                <a href="/#Reviews">
-                    Reviews
-                </a>
-            </li>
-            <li  className='text-white font-Epilogue leading-8 mt-[12px]'>
-                <a href="">
-                    Send Me A Tip
-                </a>
+            <li  onClick={() => download(cvv, filename)}  className='text-white cursor-pointer font-Epilogue leading-8 mt-[12px]'>
+                <div>
+                    View Resume
+                </div>
             </li>
         </ul>
         </div>

@@ -17,7 +17,7 @@ import shape1 from "..//public/Combined Shape.png"
 import shape2 from "..//public/Combined Shape2.png"
 import shape3 from "..//public/Combined Shape3.png"
 import pic from "..//public/Bitmap.png"
-import d from "..//public/pic.svg"
+import d from "..//public/pic(20).png"
 import './globals.css'
 import { useInView } from 'react-intersection-observer'
 import {motion, useAnimation} from "framer-motion"

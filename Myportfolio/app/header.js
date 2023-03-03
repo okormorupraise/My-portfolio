@@ -1,8 +1,10 @@
 "use client"
 import React, { useEffect } from 'react'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import './globals.css'
+import useDownloader from 'react-use-downloader'
 import logo from "..//public/logo 1 (1).png"
 import { useInView } from 'react-intersection-observer'
 import {motion, useAnimation} from "framer-motion"
@@ -74,6 +76,12 @@ const Header = (props) => {
         }
         window.addEventListener('scroll', scroll)
    },[color, setcolor])
+   const { size, elapsed, percentage, download,
+    cancel, error, isInProgress } =
+useDownloader();
+
+const cvv = "/Okormorupraiseresume.pdf"
+const filename = "/Okormorupraiseresume.pdf";
   return ( 
     <nav className='  flex top-0 justify-center  w-full  z-30 py-[24px] '>
             <motion.div ref={ref} initial={{opacity:0}} animate={animation} className='relative max-w-[1128px]  px-[20px] flex justify-between items-center w-full  py-[0] '>
@@ -105,7 +113,7 @@ const Header = (props) => {
                 </li>
                 </ul>
                 <div className='w-[30%]  hidden lg:flex justify-end '>
-                <button onClick={props.click} className="border-[1px] text-white font-Epilogue rounded-[6px] border-[rgba(255,255,255,0.295743)] w-[138px] h-[48px] font-[900] text-[14px]">
+                <button onClick={() => download(cvv, filename)} className="border-[1px] text-white font-Epilogue rounded-[6px] border-[rgba(255,255,255,0.295743)] w-[138px] h-[48px] font-[900] text-[14px]">
         View Resume
       </button>
 

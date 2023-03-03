@@ -1,5 +1,5 @@
 import React from 'react'
-import d from "..//public/pic.svg"
+import d from "..//public/pic(20).png"
 import Image from 'next/image'
 function Dreamproject(props) {
   return (

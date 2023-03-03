@@ -1,76 +1,13 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
-
-const loadingContainer = {
-  width: "4rem",
-  height: "4rem",
-  display: "flex",
-  justifyContent: "space-around",
-};
-const loadingCircle = {
-  display: "block",
-  width: "1rem",
-  height: "1rem",
-  backgroundColor: "#3A36DB",
-  borderRadius: "0.5rem",
-};
-
-const loadingContainerVariants = {
-  start: {
-    transition: {
-      staggerChildren: 0.2,
-    },
-  },
-  end: {
-    transition: {
-      staggerChildren: 0.2,
-    },
-  },
-};
-
-const loadingCircleVariants = {
-  start: {
-    y: "0%",
-  },
-  end: {
-    y: "60%",
-  },
-};
-const loadingCircleTransition = {
-  duration : 0.4,
-  yoyo : Infinity,
-  ease: 'easeInOut'
-}
-
+import Image from "next/image";
 const Loading = () => {
   return (
-    <div>
-      <div className="fixed  w-full min-h-screen z-50 bg-black opacity-1" />
-      <div className="flex fixed w-full justify-center items-center h-screen">
-        <motion.div
-          style={loadingContainer}
-          variants={loadingContainerVariants}
-          initial="start"
-          animate="end"
-        >
-          <motion.span
-            style={loadingCircle}
-            variants={loadingCircleVariants}
-            transition={loadingCircleTransition}
-          ></motion.span>
-          <motion.span
-            style={loadingCircle}
-            variants={loadingCircleVariants}
-            transition={loadingCircleTransition}
-          ></motion.span>
-          <motion.span
-            style={loadingCircle}
-            variants={loadingCircleVariants}
-            transition={loadingCircleTransition}
-          ></motion.span>
-        </motion.div>
-      </div>
+    <div className="h-screen bg-white">
+    <div className="flex justify-center items-center h-full">
+      <Image className="h-16 w-16" src="https://icons8.com/preloaders/preloaders/1488/Iphone-spinner-2.gif" alt="" width={100} height={100}/>
+    </div>
     </div>
   );
 };

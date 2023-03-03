@@ -21,7 +21,7 @@ import Supportme from './supportme'
 import Bottomnavbar from './bottomnavbar'
 
 function Containerforwesite(p) {
-  console.log(p.c)
+  
   const[state, setstate]= React.useState(true)
 
   useEffect(()=>{
@@ -54,7 +54,9 @@ function Containerforwesite(p) {
      <Contactme/>   
      <Dreamproject/>
      <Supportme/> 
-     <Bottomnavbar state={state} setstate={setstate}/> 
+  
+     <Bottomnavbar state={state} setstate={setstate}/>  
+     <Footer/>
     </div>
   )
 }
