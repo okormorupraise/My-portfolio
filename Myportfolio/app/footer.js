@@ -68,9 +68,9 @@ const filename = "/Okormorupraiseresume (3).pdf";
         </ul>
         </div>
         <div className='flex justify-end pt-[30px] md:pt-[0px]'>
-            <div className='bg-[#EF6D58] p-[16px] flex justify-center items-center  h-[48px] w-[48px] rounded-full'>
+            <Link href="https://www.linkedin.com/in/okormoru-praise-137562268/" className='bg-[#EF6D58] p-[16px] flex justify-center items-center  h-[48px] w-[48px] rounded-full'>
                 <FaLinkedin className='text-white text-[20px]'/>
-            </div>
+            </Link>
         </div>
       </div>
        <hr className='bg-[#3A3C56] outline-none border-none text-[#ff5900] h-[1px] mt-[68px] mb-[52px]'/>
@@ -79,9 +79,9 @@ const filename = "/Okormorupraiseresume (3).pdf";
                 I would Like To Work With You
             </div>
             <div>
-                <div className='text-white font-Epilogue leading-8'>
+                <Link  href="https://www.linkedin.com/in/okormoru-praise-137562268/" className='text-white font-Epilogue leading-8'>
                     Hire Me
-                </div>
+                </Link>
             </div>
        </div>
         </div>

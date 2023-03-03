@@ -118,9 +118,9 @@ function Landingpage(props) {
           <p className='font-Epilogue text-[rgba(255,255,255,0.64)] mb-[34px] max-w-[470px] w-full'>
           I provide a full service range including technical skills, design, Web 3 understanding.
           </p>
-          <div>
+          <a href='/#Latestwork'>
 <button className='w-[154px] h-[48px] bg-[#ef6d58] rounded-[6px] font-Epilogue font-black text-[14px] leading-[14px] text-[white]'>SEE MY WORK</button>
-          </div>
+          </a>
         </motion.div>
        <motion.div className='hidden md:flex relative' animate={animation2}   initial={{opacity:0, right:"-50px"}}>
        <Image src={d} alt="image"/>
