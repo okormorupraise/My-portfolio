@@ -81,7 +81,7 @@ const Header = (props) => {
 useDownloader();
 
 const cvv = "/Okormorupraiseresume (3).pdf"
-const filename = "/Okormorupraiseresume (3).pdf";
+const filename = "/Okormorupraiseresume.pdf";
   return ( 
     <nav className='  flex top-0 justify-center  w-full  z-30 py-[24px] '>
             <motion.div ref={ref} initial={{opacity:0}} animate={animation} className='relative max-w-[1128px]  px-[20px] flex justify-between items-center w-full  py-[0] '>

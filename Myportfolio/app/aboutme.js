@@ -13,7 +13,7 @@ function Aboutme() {
 useDownloader();
 
 const cvv = "/Okormorupraiseresume (3).pdf"
-const filename = "/Okormorupraiseresume (3).pdf";
+const filename = "/Okormorupraiseresume.pdf";
   const animation = useAnimation()
   const animation2 = useAnimation()
   const animation3 = useAnimation()
