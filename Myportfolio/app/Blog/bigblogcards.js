@@ -10,14 +10,13 @@ const Bigblogcards = (props) => {
           <Image src={thu.img.url} width={3999} height={4999} className="object-cover h-full" alt={thu.title}/>
       </div>
       <div className='text-[20px] leading-8 font-Epilogue text-[#391400] mt-[26px]'>
-          {thu.tag}
+      {thu.tag}
       </div>
       <div className='text-[#391400] text-[24px] max-w-[538px] w-full lg:text-[40px] font-[800] mt-[19px] leading-8 lg:leading-[48px] font-Epilogue'>
       {thu.title}
-
       </div>
       <div className='text-[rgba(57,20,0,0.64)] mt-[12px] font-Epilogue leading-8'>
-          12 Jan 2022
+         {thu.date}
       </div>
   </Link>
     )

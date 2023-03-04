@@ -16,20 +16,22 @@ const client = new ApolloClient({
 async function getSerbverSideProps() {
   const { data } = await client.query({
     query: gql`
-      query PostTs {
-        postTs {
-          title
+    query PostTs {
+      postTs {
+        title
+        id
+        tag
+        date
+        body
+        slug
+        img {
           id
-          body
-          slug
-          img {
-            id
-            url
-          }
-          
+          url
         }
+        
       }
-    `,
+    }
+  `,
   });
 
   return {

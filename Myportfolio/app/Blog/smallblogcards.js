@@ -15,10 +15,9 @@ const Smallblogcards = (props) => {
       </div>
       <div className='text-[#391400] text-[24px] font-[800] mt-[15px] leading-8  font-Epilogue'>
       {thu.title}
-
       </div>
       <div className='text-[rgba(57,20,0,0.64)] mt-[12px] font-Epilogue leading-8'>
-          12 Jan 2022
+          {thu.date}
       </div>
   </Link>
     )
