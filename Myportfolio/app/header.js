@@ -102,7 +102,7 @@ const filename = "/Okormorupraiseresume.pdf";
                     </a>
                 </li>
                 <li>
-                    <Link href="Blog"  className='text-[#ffff] font-Epilogue font-normal text-base'>
+                    <Link href="/Blog"  className='text-[#ffff] font-Epilogue font-normal text-base'>
                         Blog
                     </Link>
                 </li>

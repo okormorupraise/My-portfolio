@@ -42,7 +42,7 @@ const filename = "/Okormorupraiseresume.pdf";
                 </a>
               </li>
               <li className='px-[26px] py-[16px]'>
-                <Link href="Blog" className='text-center'>
+                <Link href="/Blog" className='text-center'>
                   <div className='flex justify-center'>
                     <FaBook className='text-[26px] text-[#9db2ce]'/>
                   </div>

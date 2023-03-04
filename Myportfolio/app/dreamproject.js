@@ -16,11 +16,11 @@ function Dreamproject(props) {
           Project
           </h1>
           <p className={`font-Epilogue mb-[34px] max-w-[470px] w-full  ${props.second === "rgba(255,255,255,0.64)" ? "text-[rgba(255,255,255,0.64)]" : "text-[rgba(57,20,0,0.64)]"}`}>
-           I would like to be involved in your project. You can also support me by clicking <a href="" className='text-black'>here</a>
+           I would like to be involved in your project.
           </p>
-          <div>
+          <a href="/#Contact">
             <button className={`w-[154px] h-[48px]  ${props.second === "rgba(255,255,255,0.64)" ? "bg-[rgba(255,255,255)]" : " bg-[#ef6d58] "}  rounded-[6px] font-Epilogue font-black text-[14px] leading-[14px] ${props.but === "#391400" ? "text-[#391400]" : " text-[#ffffff] "} `}>Contact Me</button>
-          </div>
+          </a>
         </div>
        <div className='hidden md:flex '>
        <Image src={d} alt="image"/>
