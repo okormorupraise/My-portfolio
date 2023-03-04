@@ -9,6 +9,7 @@ import { gql, ApolloClient, InMemoryCache} from '@apollo/client'
 import Landingpage from './landingpage'
 import Footer from '@/app/footer'
 export const revalidate = 60;
+
 const client = new ApolloClient({
   uri: "https://api-eu-west-2.hygraph.com/v2/cleanbmhq290501tb12yb9x0m/master",
   cache: new InMemoryCache(),
