@@ -18,5 +18,6 @@
     Details:"Not Yet.",
     id:"4"
 },
+
 ]
 export default FAQ

@@ -22,7 +22,7 @@ function Helpcompanies() {
         </div>
       </div>
       <div className='text-[rgba(57,20,0,0.64)] font-Epilogue  w-full mt-[60px]'>
-      With my help I believe your Company will have a massive growth. <Link href="/#Contact">Contact me Now !!!</Link>
+      With my help I believe your company will have a massive growth. <Link href="/#Contact">Contact me</Link>
       
       </div>
       <div className=' flex relative '>

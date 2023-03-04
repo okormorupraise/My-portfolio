@@ -83,7 +83,7 @@ function Services() {
         </div>
       </div>
         <div className='font-Epilogue pt-[28px] font-normal leading-8 text-[rgba(57,20,0,0.64)]'>
-        I have a good understanding of Frontend development and I am also skillfull in making responsive Websites and Webapps 
+        I have a good understanding of Frontend development and I am also skillfull in making responsive Websites and Webapps.
         </div>
         <a href="/#Contact" className='flex items-center mt-[30px]'>
             <div className='w-fit p-[14px] text-[#ef6c57] bg-[white] rounded-full'>
@@ -104,7 +104,7 @@ function Services() {
         </div>
       </div>
         <div className='font-Epilogue pt-[28px] font-normal leading-8 text-[rgba(57,20,0,0.64)]'>
-          In addition to my Frontend skills i also have a good understanding of complex frameworks like Next js And APIs like Rapid Api, Apollo Client e.t.c. 
+          In addition to my Frontend skills, I also have an in-depth understanding of complex frameworks like Next js And APIs like Rapid Api, Apollo Client e.t.c. 
         </div>
         <a href='/#Latestwork' className='flex items-center mt-[30px]'>
             <div className='w-fit p-[14px] text-[#ef6c57] bg-[white] rounded-full'>

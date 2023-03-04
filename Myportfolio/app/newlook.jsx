@@ -96,7 +96,7 @@ function Newlook() {
             Features
         </div>
         <h5 className='font-[Epilogue] font-extrabold text-[40px] md:text-[56px] tracking-[-1px] text-white max-w-[397px] w-full mb-[26px]'>
-            Let me join your team
+            Let work together
             
         </h5>
         <div className='text-white font-Epilogue mb-[21px] text-[20px] leading-8 max-w-[470px] w-full'>
@@ -123,7 +123,7 @@ function Newlook() {
                 <FaCheck/>
             </div>
             <div className='text-[rgba(255,255,255,0.64)] font-Epilogue ml-[16px]'>
-                I am very co-operative
+              Assistive in creating ideas.
             </div>
         </div>
       </div>

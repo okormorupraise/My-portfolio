@@ -116,7 +116,7 @@ function Landingpage(props) {
           Hello, {"I'm" }<br /> Okormoru Praise
           </h1>
           <p className='font-Epilogue text-[rgba(255,255,255,0.64)] mb-[34px] max-w-[470px] w-full'>
-          I provide a full service range including technical skills, design, Web 3 understanding.
+          I provide a full service range including technical skills, design, with in-depth Web 3 understanding.
           </p>
           <a href='/#Latestwork'>
 <button className='w-[154px] h-[48px] bg-[#ef6d58] rounded-[6px] font-Epilogue font-black text-[14px] leading-[14px] text-[white]'>SEE MY WORK</button>
