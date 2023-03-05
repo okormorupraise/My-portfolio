@@ -42,9 +42,9 @@ function Containerforwesite(p) {
   },[setstate])
   return (
     <div>
-    {/* <Headerandlandingpage state={state} setstate={setstate}/> */}
+    <Headerandlandingpage state={state} setstate={setstate}/>
      <Services/>
-     {/* <Latestwork work={p.work}/>
+     <Latestwork work={p.work}/>
      <Aboutme/>
      <Projectyears/> 
      <Newlook/>
@@ -56,7 +56,7 @@ function Containerforwesite(p) {
      <Supportme/> 
   
      <Bottomnavbar state={state} setstate={setstate}/>  
-     <Footer/> */}
+     <Footer/>
     </div>
   )
 }

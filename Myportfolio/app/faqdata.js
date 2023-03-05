@@ -9,7 +9,7 @@
     id:"2"
 },
 {
-    name:"How Can We Communicate?",
+    name:"How can I contact you?",
     Details:"You Can Contact Through The Form Below.",
     id:"3"
 },

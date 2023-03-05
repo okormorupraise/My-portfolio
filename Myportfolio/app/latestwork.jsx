@@ -90,7 +90,7 @@ function Latestwork(props) {
             <div className='w-full h-[300px]'>
                 <Image src={thu.image.url} width={800} height={800} className="w-full brightness-[0.6] h-full object-cover rounded-[6px]" alt={thu.name + "image"}/>
             </div>
-            <div className=' left-[48px] bottom-[28px] absolute text-[white] font-[800]  text-[30px] font-Epilogue'>
+            <div className='left-[20px] sm:left-[48px]  bottom-[28px] absolute text-[white] font-[800]  text-[30px] font-Epilogue'>
                 <div className='bg-white w-fit h-[38px] text-[#391400] font-Epilogue flex justify-center items-center rounded-full mb-[24px] px-[16px] text-[16px]'>
                     {thu.language}
                 </div>
