@@ -103,7 +103,7 @@ function Landingpage(props) {
     <div ref={ref} className=' h-fit lg:h-[600px] flex justify-center items-end pb-[20px] bg-[#28293E]' id='FOT'>
       <div className='  max-w-[1128px] px-[20px] items-center w-full grid grid-cols-1 md:grid-cols-2'>
       <motion.div className='flex md:hidden' animate={animation3} initial={{opacity:0}}>
-       <Image src={d} alt="image"/>
+       <Image src={d} alt="image" className='h-full w-full'/>
        </motion.div>
 
         <motion.div className='relative' animate={animation} 
@@ -123,7 +123,7 @@ function Landingpage(props) {
           </a>
         </motion.div>
        <motion.div className='hidden md:flex relative' animate={animation2}   initial={{opacity:0, right:"-50px"}}>
-       <Image src={d} alt="image"/>
+       <Image src={d} alt="image" className='h-full w-full'/>
        </motion.div>
       </div>
     </div></>
