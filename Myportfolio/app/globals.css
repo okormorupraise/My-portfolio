@@ -15,6 +15,10 @@ body{
   transition-timing-function: ease-in-out;
     transition-duration: 300ms;
 }
+#Service{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 #g{
   display: flex;
 }
@@ -23,8 +27,21 @@ body{
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
 }
+@media screen and (max-width:678px) {
+  #Service{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+}
 
-
+@media screen and (max-width:347px) {
+    #text{
+    padding-left:0px;
+    padding-top: 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+}
 @media screen and (max-width:280px){
 
   #g{
@@ -32,10 +49,7 @@ body{
 
  
   }
-  #text{
-    padding-left:0px;
-    padding-top: 10px;
-  }
+
 }
 @media screen and (max-width: 300px){
   #Email{

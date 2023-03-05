@@ -72,7 +72,7 @@ function Services() {
           </div>
         </div>
 <div className='w-full mt-[64px]'>
-  <div className='grid grid-cols-1 sm:grid-cols-2'>
+  <div className=' ' id='Service'>
     <div className='border-[1px] border-[#F3D1BF] rounded-tl-[6px] rounded-bl-[6px] p-[48px]'>
       <div id="g" className=' items-center'>
         <div className='bg-[#EF6C57] w-fit p-[24px] rounded-full'>
