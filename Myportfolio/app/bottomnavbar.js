@@ -21,42 +21,42 @@ const filename = "/Okormorupraiseresume.pdf";
           View Resume
         </button>
             <ul className={`grid grid-cols-4`}>
-              <li className=''>
+              <li className=' py-[10px]'>
                 <Link href="/" className='text-center'>
                   <div className='flex justify-center'>
-                    <FaHome className='text-[26px] text-[#9db2ce]'/>
+                    <FaHome className='text-[26px] text-[#9db2ce]' id='icon'/>
                   </div>
-                  <div className='mt-[5px] text-[12px] leading-[18px] tracking-[-0.165px] font-[500] text-[#9db2ce] font-Epilogue'>
+                  <div className='mt-[5px] text-[12px] leading-[18px] tracking-[-0.165px] font-[500] text-[#9db2ce] font-Epilogue' id='iconwords'>
                     Home
                   </div>
                 </Link>
               </li>
-                            <li className=''>
+                            <li className=' py-[10px]'>
                 <a href="/#Services" className='text-center'>
                   <div className='flex justify-center'>
-                    <FaInfo className='text-[26px] text-[#9db2ce]'/>
+                    <FaInfo className='text-[26px] text-[#9db2ce]' id='icon'/>
                   </div>
-                  <div className='mt-[5px] text-[12px] leading-[18px] tracking-[-0.165px] font-[500] text-[#9db2ce] font-Epilogue'>
-                  Services
+                  <div className='mt-[5px] text-[12px] leading-[18px] tracking-[-0.165px] font-[500] text-[#9db2ce] font-Epilogue' id='iconwords'>
+                     Services
                   </div>
                 </a>
               </li>
-              <li className=''>
+              <li className=' py-[10px]'>
                 <Link href="/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Blog" className='text-center'>
                   <div className='flex justify-center'>
-                    <FaBook className='text-[26px] text-[#9db2ce]'/>
+                    <FaBook className='text-[26px] text-[#9db2ce]' id='icon'/>
                   </div>
-                  <div className='mt-[5px] text-[12px] leading-[18px] tracking-[-0.165px] font-[500] text-[#9db2ce] font-Epilogue'>
+                  <div className='mt-[5px] text-[12px] leading-[18px] tracking-[-0.165px] font-[500] text-[#9db2ce] font-Epilogue' id='iconwords'>
                     Blog
                   </div>
                 </Link>
               </li>
-              <li className=''>
+              <li className=' py-[10px]'>
                 <a href="/#Contact" className='text-center'>
                   <div className='flex justify-center'>
-                    <FaPhone className='text-[26px] text-[#9db2ce]'/>
+                    <FaPhone className='text-[26px] text-[#9db2ce]' id='icon'/>
                   </div>
-                  <div className='mt-[5px] text-[12px] leading-[18px] tracking-[-0.165px] font-[500] text-[#9db2ce] font-Epilogue'>
+                  <div className='mt-[5px] text-[12px] leading-[18px] tracking-[-0.165px] font-[500] text-[#9db2ce] font-Epilogue' id='iconwords'>
                     Contact
                   </div>
                 </a>

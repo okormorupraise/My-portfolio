@@ -69,3 +69,11 @@ body{
     word-wrap: break-word;
   }
 }
+@media screen and (max-width: 365px){
+  #icon{
+    font-size: 20px;
+  }
+  #iconwords{
+    font-size: 10px;
+  }
+}
