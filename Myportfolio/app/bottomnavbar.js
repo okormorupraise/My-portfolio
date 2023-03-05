@@ -21,7 +21,7 @@ const filename = "/Okormorupraiseresume.pdf";
           View Resume
         </button>
             <ul className={`grid grid-cols-4`}>
-              <li className=' py-[10px]'>
+              <li className=' pt-[10px] pb-[5px]'>
                 <Link href="/" className='text-center'>
                   <div className='flex justify-center'>
                     <FaHome className='text-[26px] text-[#9db2ce]' id='icon'/>
@@ -31,7 +31,7 @@ const filename = "/Okormorupraiseresume.pdf";
                   </div>
                 </Link>
               </li>
-                            <li className=' py-[10px]'>
+                            <li className=' pt-[10px]'>
                 <a href="/#Services" className='text-center'>
                   <div className='flex justify-center'>
                     <FaInfo className='text-[26px] text-[#9db2ce]' id='icon'/>
@@ -41,7 +41,7 @@ const filename = "/Okormorupraiseresume.pdf";
                   </div>
                 </a>
               </li>
-              <li className=' py-[10px]'>
+              <li className=' pt-[10px]'>
                 <Link href="/Blog" className='text-center'>
                   <div className='flex justify-center'>
                     <FaBook className='text-[26px] text-[#9db2ce]' id='icon'/>
@@ -51,7 +51,7 @@ const filename = "/Okormorupraiseresume.pdf";
                   </div>
                 </Link>
               </li>
-              <li className=' py-[10px]'>
+              <li className=' pt-[10px]'>
                 <a href="/#Contact" className='text-center'>
                   <div className='flex justify-center'>
                     <FaPhone className='text-[26px] text-[#9db2ce]' id='icon'/>

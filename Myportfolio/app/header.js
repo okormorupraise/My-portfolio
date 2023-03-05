@@ -85,7 +85,7 @@ const filename = "/Okormorupraiseresume.pdf";
   return ( 
     <nav className='  flex top-0 justify-center  w-full  z-30 py-[24px] '>
             <motion.div ref={ref} initial={{opacity:0}} animate={animation} className='relative max-w-[1128px]  px-[20px] flex justify-between items-center w-full  py-[0] '>
-                <div className="font-Epilogue text-[#ffffff] h-[48px]  font-bold text-[20px] sm:text-[24px] w-[unset] lg:w-[30%]  flex items-center ">
+                <div className="font-Epilogue text-[#ffffff] h-[48px]  font-bold text-[23px] w-[unset] lg:w-[30%]  flex items-center ">
                     <Link href="/"  className='flex items-center h-full'>
                         PRAISE OKORMORU
                     </Link>
